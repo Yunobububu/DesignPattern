@@ -3,7 +3,7 @@
 * 策略模式利用的是面向对象的继承和多态机制
 <div align = "center">
 
-<img src = "https://raw.githubusercontent.com/Yunobububu/Pictures/master/Screenshot/SrtrategyPattern.png">
+<img src = "https://raw.githubusercontent.com/Yunobububu/DesignPattern/master/src/Pictures/SrtrategyPattern.png">
 
 </div>
 
