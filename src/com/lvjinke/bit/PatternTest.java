@@ -1,6 +1,7 @@
 package com.lvjinke.bit;
 
 public class PatternTest {
+
     public static void main(String[] args){
         Context context = null;
         System.out.println("use the first stratety");
@@ -13,4 +14,8 @@ public class PatternTest {
         context = new Context(new IStrategyThree());
         context.operate();
     }
+
+
+
+
 }
