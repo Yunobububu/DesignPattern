@@ -1,4 +1,4 @@
-package com.lvjinke.bit;
+package com.lvjinke.bit.Strategy;
 
 public class Context {
     private IStrategy is = null;
