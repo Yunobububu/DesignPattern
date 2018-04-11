@@ -10,5 +10,9 @@ public class Context {
         Human human1 = factory.creatHuman(BlackMan.class);
         human1.talk();
         human1.getColor();
+        //SingleHumanFactory shf = new SingleHumanFactory();
+        Human human2 = SingleHumanFactory.creatHuman(BlackMan.class);
+        human2.getColor();
+        human2.talk();
     }
 }

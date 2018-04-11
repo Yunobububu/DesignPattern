@@ -1,5 +1,5 @@
 package com.lvjinke.bit.FactoryMethod;
 
 public abstract class AbstractHumanFactory {
-    public abstract Human creatHuman(Class c);
+    public abstract <T extends Human> T creatHuman(Class<T> c);
 }

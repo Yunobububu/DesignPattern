@@ -3,10 +3,10 @@ package com.lvjinke.bit.FactoryMethod;
 public class HumanFactory extends AbstractHumanFactory {
 
     @Override
-    public Human creatHuman(Class c) {
-        Human human = null;
+    public <T extends Human> T creatHuman(Class<T> c) {
+        T human = null;
         try{
-            human = (Human)Class.forName(c.getName()).newInstance();
+            human = (T)Class.forName(c.getName()).newInstance();
 
         }catch (Exception e){
             System.out.println("class error");
