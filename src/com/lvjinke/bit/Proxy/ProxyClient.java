@@ -13,6 +13,9 @@ public class ProxyClient {
         proxy.login("little finger" ,"23200");
         proxy.killBoss();
         proxy.upgrade();
+        Subject subject = new ConcreteSubject();
+        Subject proxy2 = DynamicProxy.newInstance(subject);
+        proxy2.execute();
     }
 
 }
